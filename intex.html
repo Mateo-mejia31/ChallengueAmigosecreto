@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge amigo secreto </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="titulo">Juego del amigo secreto</h1>
+
+    <div class="container">
+        <input type="text" id="nombre" placeholder="Digita el nombre de tus amigos">
+        <button class="btn neon" onclick="agregarAmigo()">Adicionar</button>
+
+        <ul id="listaAmigos"></ul>
+
+        <button class="btn sortear" onclick="sortearAmigo()">Sortear Amigo</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
